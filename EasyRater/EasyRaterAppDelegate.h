@@ -7,9 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MenubarController.h"
+#import "ITunesController.h"
 
 @interface EasyRaterAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, strong) MenubarController *menubarController;
+@property (nonatomic, strong) ITunesController *iTunesController;
 
 @end
