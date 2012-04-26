@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E117B4515497280002B8C44 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E117B4415497280002B8C44 /* Cocoa.framework */; };
+		6E117B4F15497280002B8C44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B4D15497280002B8C44 /* InfoPlist.strings */; };
+		6E117B5115497280002B8C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E117B5015497280002B8C44 /* main.m */; };
+		6E117B5515497280002B8C44 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B5315497280002B8C44 /* Credits.rtf */; };
+		6E117B5815497280002B8C44 /* EasyRaterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E117B5715497280002B8C44 /* EasyRaterAppDelegate.m */; };
+		6E117B5B15497280002B8C44 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B5915497280002B8C44 /* MainMenu.xib */; };
+		6E117B6315497280002B8C44 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E117B6215497280002B8C44 /* SenTestingKit.framework */; };
+		6E117B6415497280002B8C44 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E117B4415497280002B8C44 /* Cocoa.framework */; };
+		6E117B6C15497280002B8C44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B6A15497280002B8C44 /* InfoPlist.strings */; };
+		6E117B6F15497280002B8C44 /* EasyRaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E117B6E15497280002B8C44 /* EasyRaterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E117B6515497280002B8C44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E117B3715497280002B8C44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E117B3F15497280002B8C44;
+			remoteInfo = EasyRater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E117B4015497280002B8C44 /* EasyRater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyRater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E117B4415497280002B8C44 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6E117B4715497280002B8C44 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6E117B4815497280002B8C44 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6E117B4915497280002B8C44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E117B4C15497280002B8C44 /* EasyRater-Info.plist */ = {isa = PBXFileReference; path = "EasyRater-Info.plist"; sourceTree = "<group>"; };
+		6E117B4E15497280002B8C44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E117B5015497280002B8C44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E117B5215497280002B8C44 /* EasyRater-Prefix.pch */ = {isa = PBXFileReference; path = "EasyRater-Prefix.pch"; sourceTree = "<group>"; };
+		6E117B5415497280002B8C44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6E117B5615497280002B8C44 /* EasyRaterAppDelegate.h */ = {isa = PBXFileReference; path = EasyRaterAppDelegate.h; sourceTree = "<group>"; };
+		6E117B5715497280002B8C44 /* EasyRaterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyRaterAppDelegate.m; sourceTree = "<group>"; };
+		6E117B5A15497280002B8C44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6E117B6115497280002B8C44 /* EasyRaterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyRaterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E117B6215497280002B8C44 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6E117B6915497280002B8C44 /* EasyRaterTests-Info.plist */ = {isa = PBXFileReference; path = "EasyRaterTests-Info.plist"; sourceTree = "<group>"; };
+		6E117B6B15497280002B8C44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E117B6D15497280002B8C44 /* EasyRaterTests.h */ = {isa = PBXFileReference; path = EasyRaterTests.h; sourceTree = "<group>"; };
+		6E117B6E15497280002B8C44 /* EasyRaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyRaterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E117B3D15497280002B8C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E117B4515497280002B8C44 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E117B5D15497280002B8C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E117B6315497280002B8C44 /* SenTestingKit.framework in Frameworks */,
+				6E117B6415497280002B8C44 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E117B351549727F002B8C44 = {
+			isa = PBXGroup;
+			children = (
+				6E117B4A15497280002B8C44 /* EasyRater */,
+				6E117B6715497280002B8C44 /* EasyRaterTests */,
+				6E117B4315497280002B8C44 /* Frameworks */,
+				6E117B4115497280002B8C44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E117B4115497280002B8C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E117B4015497280002B8C44 /* EasyRater.app */,
+				6E117B6115497280002B8C44 /* EasyRaterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E117B4315497280002B8C44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E117B4415497280002B8C44 /* Cocoa.framework */,
+				6E117B6215497280002B8C44 /* SenTestingKit.framework */,
+				6E117B4615497280002B8C44 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E117B4615497280002B8C44 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E117B4715497280002B8C44 /* AppKit.framework */,
+				6E117B4815497280002B8C44 /* CoreData.framework */,
+				6E117B4915497280002B8C44 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6E117B4A15497280002B8C44 /* EasyRater */ = {
+			isa = PBXGroup;
+			children = (
+				6E117B5615497280002B8C44 /* EasyRaterAppDelegate.h */,
+				6E117B5715497280002B8C44 /* EasyRaterAppDelegate.m */,
+				6E117B5915497280002B8C44 /* MainMenu.xib */,
+				6E117B4B15497280002B8C44 /* Supporting Files */,
+			);
+			path = EasyRater;
+			sourceTree = "<group>";
+		};
+		6E117B4B15497280002B8C44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E117B4C15497280002B8C44 /* EasyRater-Info.plist */,
+				6E117B4D15497280002B8C44 /* InfoPlist.strings */,
+				6E117B5015497280002B8C44 /* main.m */,
+				6E117B5215497280002B8C44 /* EasyRater-Prefix.pch */,
+				6E117B5315497280002B8C44 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E117B6715497280002B8C44 /* EasyRaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E117B6D15497280002B8C44 /* EasyRaterTests.h */,
+				6E117B6E15497280002B8C44 /* EasyRaterTests.m */,
+				6E117B6815497280002B8C44 /* Supporting Files */,
+			);
+			path = EasyRaterTests;
+			sourceTree = "<group>";
+		};
+		6E117B6815497280002B8C44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E117B6915497280002B8C44 /* EasyRaterTests-Info.plist */,
+				6E117B6A15497280002B8C44 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E117B3F15497280002B8C44 /* EasyRater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E117B7215497280002B8C44 /* Build configuration list for PBXNativeTarget "EasyRater" */;
+			buildPhases = (
+				6E117B3C15497280002B8C44 /* Sources */,
+				6E117B3D15497280002B8C44 /* Frameworks */,
+				6E117B3E15497280002B8C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyRater;
+			productName = EasyRater;
+			productReference = 6E117B4015497280002B8C44 /* EasyRater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E117B6015497280002B8C44 /* EasyRaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E117B7515497280002B8C44 /* Build configuration list for PBXNativeTarget "EasyRaterTests" */;
+			buildPhases = (
+				6E117B5C15497280002B8C44 /* Sources */,
+				6E117B5D15497280002B8C44 /* Frameworks */,
+				6E117B5E15497280002B8C44 /* Resources */,
+				6E117B5F15497280002B8C44 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E117B6615497280002B8C44 /* PBXTargetDependency */,
+			);
+			name = EasyRaterTests;
+			productName = EasyRaterTests;
+			productReference = 6E117B6115497280002B8C44 /* EasyRaterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E117B3715497280002B8C44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EasyRater;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "leonardseymore@gmail.com";
+			};
+			buildConfigurationList = 6E117B3A15497280002B8C44 /* Build configuration list for PBXProject "EasyRater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E117B351549727F002B8C44;
+			productRefGroup = 6E117B4115497280002B8C44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E117B3F15497280002B8C44 /* EasyRater */,
+				6E117B6015497280002B8C44 /* EasyRaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E117B3E15497280002B8C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E117B4F15497280002B8C44 /* InfoPlist.strings in Resources */,
+				6E117B5515497280002B8C44 /* Credits.rtf in Resources */,
+				6E117B5B15497280002B8C44 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E117B5E15497280002B8C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E117B6C15497280002B8C44 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E117B5F15497280002B8C44 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E117B3C15497280002B8C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E117B5115497280002B8C44 /* main.m in Sources */,
+				6E117B5815497280002B8C44 /* EasyRaterAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E117B5C15497280002B8C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E117B6F15497280002B8C44 /* EasyRaterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E117B6615497280002B8C44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E117B3F15497280002B8C44 /* EasyRater */;
+			targetProxy = 6E117B6515497280002B8C44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E117B4D15497280002B8C44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E117B4E15497280002B8C44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E117B5315497280002B8C44 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E117B5415497280002B8C44 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6E117B5915497280002B8C44 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E117B5A15497280002B8C44 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6E117B6A15497280002B8C44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E117B6B15497280002B8C44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E117B7015497280002B8C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6E117B7115497280002B8C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6E117B7315497280002B8C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
+				INFOPLIST_FILE = "EasyRater/EasyRater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E117B7415497280002B8C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
+				INFOPLIST_FILE = "EasyRater/EasyRater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E117B7615497280002B8C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyRater.app/Contents/MacOS/EasyRater";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
+				INFOPLIST_FILE = "EasyRaterTests/EasyRaterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6E117B7715497280002B8C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyRater.app/Contents/MacOS/EasyRater";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
+				INFOPLIST_FILE = "EasyRaterTests/EasyRaterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E117B3A15497280002B8C44 /* Build configuration list for PBXProject "EasyRater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E117B7015497280002B8C44 /* Debug */,
+				6E117B7115497280002B8C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E117B7215497280002B8C44 /* Build configuration list for PBXNativeTarget "EasyRater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E117B7315497280002B8C44 /* Debug */,
+				6E117B7415497280002B8C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E117B7515497280002B8C44 /* Build configuration list for PBXNativeTarget "EasyRaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E117B7615497280002B8C44 /* Debug */,
+				6E117B7715497280002B8C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E117B3715497280002B8C44 /* Project object */;
+}
