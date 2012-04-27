@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0588C8154A6EAB00640C79 /* defaultAlbumArt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0588C7154A6EAB00640C79 /* defaultAlbumArt.png */; };
+		6E0588CA154A6FC300640C79 /* ITunesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0588CB154A6FC300640C79 /* ITunesController.m */; };
+		6E0588D8154A741B00640C79 /* DeleteTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0588D7154A741B00640C79 /* DeleteTrackViewController.m */; };
+		6E0588E2154A88FF00640C79 /* DeleteTrackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0588E3154A88FF00640C79 /* DeleteTrackView.xib */; };
 		6E117B4515497280002B8C44 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E117B4415497280002B8C44 /* Cocoa.framework */; };
 		6E117B4F15497280002B8C44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B4D15497280002B8C44 /* InfoPlist.strings */; };
 		6E117B5115497280002B8C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E117B5015497280002B8C44 /* main.m */; };
@@ -17,9 +21,7 @@
 		6E117B6415497280002B8C44 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E117B4415497280002B8C44 /* Cocoa.framework */; };
 		6E117B6C15497280002B8C44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B6A15497280002B8C44 /* InfoPlist.strings */; };
 		6E117B6F15497280002B8C44 /* EasyRaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E117B6E15497280002B8C44 /* EasyRaterTests.m */; };
-		6E117B85154974AD002B8C44 /* ITunesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E117B82154974AD002B8C44 /* ITunesController.m */; };
 		6E117B86154974AD002B8C44 /* MenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E117B84154974AD002B8C44 /* MenubarController.m */; };
-		6E117B961549753C002B8C44 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B881549753C002B8C44 /* icon.png */; };
 		6E117B971549753C002B8C44 /* ratingStar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B891549753C002B8C44 /* ratingStar1.png */; };
 		6E117B981549753C002B8C44 /* ratingStar1Alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B8A1549753C002B8C44 /* ratingStar1Alt.png */; };
 		6E117B991549753C002B8C44 /* ratingStar2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B8B1549753C002B8C44 /* ratingStar2.png */; };
@@ -48,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E0588C7154A6EAB00640C79 /* defaultAlbumArt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = defaultAlbumArt.png; path = Images/defaultAlbumArt.png; sourceTree = "<group>"; };
+		6E0588CB154A6FC300640C79 /* ITunesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesController.m; sourceTree = "<group>"; };
+		6E0588D6154A741B00640C79 /* DeleteTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteTrackViewController.h; sourceTree = "<group>"; };
+		6E0588D7154A741B00640C79 /* DeleteTrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteTrackViewController.m; sourceTree = "<group>"; };
+		6E0588E3154A88FF00640C79 /* DeleteTrackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteTrackView.xib; sourceTree = "<group>"; };
 		6E117B4015497280002B8C44 /* EasyRater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyRater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E117B4415497280002B8C44 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6E117B4715497280002B8C44 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -68,11 +75,8 @@
 		6E117B6D15497280002B8C44 /* EasyRaterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyRaterTests.h; sourceTree = "<group>"; };
 		6E117B6E15497280002B8C44 /* EasyRaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyRaterTests.m; sourceTree = "<group>"; };
 		6E117B80154974A1002B8C44 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
-		6E117B81154974AD002B8C44 /* ITunesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITunesController.h; sourceTree = "<group>"; };
-		6E117B82154974AD002B8C44 /* ITunesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITunesController.m; sourceTree = "<group>"; };
 		6E117B83154974AD002B8C44 /* MenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenubarController.h; sourceTree = "<group>"; };
 		6E117B84154974AD002B8C44 /* MenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenubarController.m; sourceTree = "<group>"; };
-		6E117B881549753C002B8C44 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Images/icon.png; sourceTree = "<group>"; };
 		6E117B891549753C002B8C44 /* ratingStar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ratingStar1.png; path = Images/ratingStar1.png; sourceTree = "<group>"; };
 		6E117B8A1549753C002B8C44 /* ratingStar1Alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ratingStar1Alt.png; path = Images/ratingStar1Alt.png; sourceTree = "<group>"; };
 		6E117B8B1549753C002B8C44 /* ratingStar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ratingStar2.png; path = Images/ratingStar2.png; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 		6E117BB715497715002B8C44 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6E117BB915497720002B8C44 /* af */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = af; path = af.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6E117BBB1549785C002B8C44 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
+		6E3FD14515499BFF006C4265 /* ITunesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,12 +205,14 @@
 		6E117B7C15497447002B8C44 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				6E117B81154974AD002B8C44 /* ITunesController.h */,
-				6E117B82154974AD002B8C44 /* ITunesController.m */,
+				6E3FD14515499BFF006C4265 /* ITunesController.h */,
+				6E0588CB154A6FC300640C79 /* ITunesController.m */,
 				6E117B83154974AD002B8C44 /* MenubarController.h */,
 				6E117B84154974AD002B8C44 /* MenubarController.m */,
 				6E117B5615497280002B8C44 /* EasyRaterAppDelegate.h */,
 				6E117B5715497280002B8C44 /* EasyRaterAppDelegate.m */,
+				6E0588D6154A741B00640C79 /* DeleteTrackViewController.h */,
+				6E0588D7154A741B00640C79 /* DeleteTrackViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -223,6 +230,7 @@
 			children = (
 				6E117B7F1549747F002B8C44 /* Images */,
 				6E117B5915497280002B8C44 /* MainMenu.xib */,
+				6E0588E3154A88FF00640C79 /* DeleteTrackView.xib */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -230,8 +238,8 @@
 		6E117B7F1549747F002B8C44 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6E0588C7154A6EAB00640C79 /* defaultAlbumArt.png */,
 				6E117BBB1549785C002B8C44 /* icon.icns */,
-				6E117B881549753C002B8C44 /* icon.png */,
 				6E117B891549753C002B8C44 /* ratingStar1.png */,
 				6E117B8A1549753C002B8C44 /* ratingStar1Alt.png */,
 				6E117B8B1549753C002B8C44 /* ratingStar2.png */,
@@ -324,7 +332,7 @@
 				6E117B4F15497280002B8C44 /* InfoPlist.strings in Resources */,
 				6E117B5515497280002B8C44 /* Credits.rtf in Resources */,
 				6E117B5B15497280002B8C44 /* MainMenu.xib in Resources */,
-				6E117B961549753C002B8C44 /* icon.png in Resources */,
+				6E0588E2154A88FF00640C79 /* DeleteTrackView.xib in Resources */,
 				6E117B971549753C002B8C44 /* ratingStar1.png in Resources */,
 				6E117B981549753C002B8C44 /* ratingStar1Alt.png in Resources */,
 				6E117B991549753C002B8C44 /* ratingStar2.png in Resources */,
@@ -339,6 +347,7 @@
 				6E117BA21549753C002B8C44 /* ratingStarUnknownAlt.png in Resources */,
 				6E117BB815497715002B8C44 /* Localizable.strings in Resources */,
 				6E117BBC1549785C002B8C44 /* icon.icns in Resources */,
+				6E0588C8154A6EAB00640C79 /* defaultAlbumArt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +384,9 @@
 			files = (
 				6E117B5115497280002B8C44 /* main.m in Sources */,
 				6E117B5815497280002B8C44 /* EasyRaterAppDelegate.m in Sources */,
-				6E117B85154974AD002B8C44 /* ITunesController.m in Sources */,
+				6E0588CA154A6FC300640C79 /* ITunesController.m in Sources */,
 				6E117B86154974AD002B8C44 /* MenubarController.m in Sources */,
+				6E0588D8154A741B00640C79 /* DeleteTrackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +569,7 @@
 				6E117B7415497280002B8C44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E117B7515497280002B8C44 /* Build configuration list for PBXNativeTarget "EasyRaterTests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +578,7 @@
 				6E117B7715497280002B8C44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

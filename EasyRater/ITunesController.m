@@ -9,12 +9,15 @@
 #import "ITunesController.h"
 
 @implementation ITunesController
+
 @synthesize iTunesApp = _iTunesApp;
+@synthesize deleteTrackViewController = _deleteTrackViewController;
+
 -(id)init
 {
     self = [super init];
+    _deleteTrackViewController = [[DeleteTrackViewController alloc] initWithNibName:@"DeleteTrackView" bundle:nil];
     _iTunesApp = (iTunesApplication *)[SBApplication applicationWithBundleIdentifier:@"com.apple.iTunes"];
-    
     return self;
 }
 
@@ -35,8 +38,12 @@
 -(void) deleteTrack:(iTunesTrack*)track
 {
     if (track) {
-        NSString *alertMessage = [[NSString alloc] initWithFormat:NSLocalizedString(@"Track Delete Prompt", @"Prompt format for confirming if track should be deleted"), [track artist], [track album] , [track name]];
+        NSString *alertMessage = [[NSString alloc] initWithFormat:NSLocalizedString(@"Track Delete Prompt", @"Prompt format for confirming if track should be deleted")];
         NSAlert *alert = [NSAlert alertWithMessageText:alertMessage defaultButton:NSLocalizedString(@"Delete Track", @"Title for delete track button") alternateButton:NSLocalizedString(@"Cancel", @"Title for cancel button") otherButton:nil informativeTextWithFormat:NSLocalizedString(@"Track Delete No-Restore Warning", @"Warn user that deleted tracks cannot be restored")];
+        
+        [alert setAccessoryView:_deleteTrackViewController.view];
+        [_deleteTrackViewController setTrack:track];
+        
         if ([alert runModal] == NSAlertDefaultReturn) {
             [track delete];
             NSLog(@"Deleted item");

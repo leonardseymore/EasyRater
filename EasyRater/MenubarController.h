@@ -16,7 +16,7 @@
 
 @property (nonatomic, strong, readonly) NSStatusItem *statusItem;
 
-@property (nonatomic, weak) ITunesController *iTunesController;
+@property (nonatomic, strong) ITunesController *iTunesController;
 @property (nonatomic, strong) NSMenu *ratingMenu;
 @property (nonatomic, strong) NSMenuItem *menuItemUnknown;
 @property (nonatomic, strong) NSMenuItem *menuItem1;

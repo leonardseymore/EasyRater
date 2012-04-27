@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[DeleteTrackViewController setTrack:]:DeleteTrackViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "newTrack.artworks.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ITunesController deleteTrack:]:ITunesController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "artwork.objectDescription">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

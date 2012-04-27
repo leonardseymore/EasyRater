@@ -8,9 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "iTunes.h"
+#import "DeleteTrackViewController.h"
 
-@interface ITunesController : NSObject
+@interface ITunesController : NSObject 
+
 @property (nonatomic, strong) iTunesApplication *iTunesApp;
+@property (nonatomic, strong) DeleteTrackViewController *deleteTrackViewController;
 
 -(void) setTrackRating:(iTunesTrack*)track:(NSInteger)rating;
 -(void) deleteTrack:(iTunesTrack*)track;
