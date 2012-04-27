@@ -41,8 +41,20 @@
         } else {
             [_vwArtwork setImage:[NSImage imageNamed:@"defaultAlbumArt.png"]];
         }
-        _lblAlbum.stringValue = newTrack.album;
-        _lblArtist.stringValue = newTrack.artist;
+        
+        if (newTrack.album && newTrack.album.length > 0) {
+            _lblAlbum.stringValue = newTrack.album;
+        } else {
+            _lblAlbum.stringValue = NSLocalizedString(@"Unknown Album", @"Indicates an unknown album label");
+        }
+        
+        if (newTrack.artist && newTrack.artist.length > 0) {
+            _lblArtist.stringValue = newTrack.artist;
+        } else {
+            _lblArtist.stringValue = NSLocalizedString(@"Unknown Artist", @"Indicates an unknown artist label");
+        }
+        
+    
         _lblTrack.stringValue = newTrack.name;
         _lblPlays.stringValue = [[NSString alloc] initWithFormat:@"%d", newTrack.playedCount];
     }
