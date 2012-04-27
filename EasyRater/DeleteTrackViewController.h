@@ -14,5 +14,6 @@
 @property (weak) IBOutlet NSTextField *lblAlbum;
 @property (weak) IBOutlet NSTextField *lblArtist;
 @property (weak) IBOutlet NSTextField *lblTrack;
+@property (weak) IBOutlet NSTextField *lblPlays;
 @property (nonatomic, strong) iTunesTrack *track;
 @end

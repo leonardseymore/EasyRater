@@ -18,6 +18,7 @@
 @synthesize lblAlbum = _lblAlbum;
 @synthesize lblArtist = _lblArtist;
 @synthesize lblTrack = _lblTrack;
+@synthesize lblPlays = _lblPlays;
 @synthesize track = _track;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -43,6 +44,7 @@
         _lblAlbum.stringValue = newTrack.album;
         _lblArtist.stringValue = newTrack.artist;
         _lblTrack.stringValue = newTrack.name;
+        _lblPlays.stringValue = [[NSString alloc] initWithFormat:@"%d", newTrack.playedCount];
     }
     _track = newTrack;
     
