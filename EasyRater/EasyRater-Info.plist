@@ -6,6 +6,10 @@
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>za.co.lorc.EasyRaterHelp</string>
 	<key>CFBundleIconFile</key>
 	<string>icon.icns</string>
 	<key>CFBundleIdentifier</key>
@@ -27,7 +31,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>LSUIElement</key>
-	<true/>
+	<false/>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2012 leonardseymore@gmail.com. All rights reserved.</string>
 	<key>NSMainNibFile</key>

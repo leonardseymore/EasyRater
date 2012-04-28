@@ -10,6 +10,7 @@
 		6E0588C8154A6EAB00640C79 /* defaultAlbumArt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0588C7154A6EAB00640C79 /* defaultAlbumArt.png */; };
 		6E0588CA154A6FC300640C79 /* ITunesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0588CB154A6FC300640C79 /* ITunesController.m */; };
 		6E0588D8154A741B00640C79 /* DeleteTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0588D7154A741B00640C79 /* DeleteTrackViewController.m */; };
+		6E0FADBA154BED8700936F1C /* Help in Resources */ = {isa = PBXBuildFile; fileRef = 6E0FADB9154BED8700936F1C /* Help */; };
 		6E117B4515497280002B8C44 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E117B4415497280002B8C44 /* Cocoa.framework */; };
 		6E117B4F15497280002B8C44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B4D15497280002B8C44 /* InfoPlist.strings */; };
 		6E117B5115497280002B8C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E117B5015497280002B8C44 /* main.m */; };
@@ -54,6 +55,7 @@
 		6E0588CB154A6FC300640C79 /* ITunesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesController.m; sourceTree = "<group>"; };
 		6E0588D6154A741B00640C79 /* DeleteTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteTrackViewController.h; sourceTree = "<group>"; };
 		6E0588D7154A741B00640C79 /* DeleteTrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteTrackViewController.m; sourceTree = "<group>"; };
+		6E0FADB9154BED8700936F1C /* Help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Help; path = EasyRater/Help; sourceTree = "<group>"; };
 		6E117B4015497280002B8C44 /* EasyRater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyRater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E117B4415497280002B8C44 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6E117B4715497280002B8C44 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -122,8 +124,9 @@
 		6E117B351549727F002B8C44 = {
 			isa = PBXGroup;
 			children = (
+				6E0FADB9154BED8700936F1C /* Help */,
 				6E117B4A15497280002B8C44 /* Sources */,
-				6E117B6715497280002B8C44 /* EasyRaterTests */,
+				6E117B6715497280002B8C44 /* Tests */,
 				6E117B4315497280002B8C44 /* Frameworks */,
 				6E117B4115497280002B8C44 /* Products */,
 			);
@@ -184,13 +187,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6E117B6715497280002B8C44 /* EasyRaterTests */ = {
+		6E117B6715497280002B8C44 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				6E117B6D15497280002B8C44 /* EasyRaterTests.h */,
 				6E117B6E15497280002B8C44 /* EasyRaterTests.m */,
 				6E117B6815497280002B8C44 /* Supporting Files */,
 			);
+			name = Tests;
 			path = EasyRaterTests;
 			sourceTree = "<group>";
 		};
@@ -349,6 +353,7 @@
 				6E117BB815497715002B8C44 /* Localizable.strings in Resources */,
 				6E117BBC1549785C002B8C44 /* icon.icns in Resources */,
 				6E0588C8154A6EAB00640C79 /* defaultAlbumArt.png in Resources */,
+				6E0FADBA154BED8700936F1C /* Help in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
