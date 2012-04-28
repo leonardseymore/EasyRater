@@ -57,6 +57,16 @@
 							<string key="NSResourceName">NSMenuMixedState</string>
 						</object>
 					</object>
+					<object class="NSMenuItem" id="551250565">
+						<reference key="NSMenu" ref="737387613"/>
+						<bool key="NSIsDisabled">YES</bool>
+						<bool key="NSIsSeparator">YES</bool>
+						<string key="NSTitle"/>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="928345275"/>
+						<reference key="NSMixedImage" ref="650939588"/>
+					</object>
 					<object class="NSMenuItem" id="365826455">
 						<reference key="NSMenu" ref="737387613"/>
 						<string key="NSTitle">None</string>
@@ -124,6 +134,15 @@
 						<reference key="NSMixedImage" ref="650939588"/>
 					</object>
 				</array>
+			</object>
+			<object class="NSMenuItem" id="348692629">
+				<bool key="NSIsDisabled">YES</bool>
+				<bool key="NSIsSeparator">YES</bool>
+				<string key="NSTitle"/>
+				<string key="NSKeyEquiv"/>
+				<int key="NSMnemonicLoc">2147483647</int>
+				<reference key="NSOnImage" ref="928345275"/>
+				<reference key="NSMixedImage" ref="650939588"/>
 			</object>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -296,6 +315,7 @@
 							<reference ref="412738768"/>
 							<reference ref="275890344"/>
 							<reference ref="723126588"/>
+							<reference ref="551250565"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -349,6 +369,16 @@
 						<reference key="object" ref="635436464"/>
 						<reference key="parent" ref="0"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">55</int>
+						<reference key="object" ref="348692629"/>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">56</int>
+						<reference key="object" ref="551250565"/>
+						<reference key="parent" ref="737387613"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -366,12 +396,14 @@
 				<string key="20.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="21.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="40.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="55.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="56.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">54</int>
+			<int key="maxID">56</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -385,7 +417,6 @@
 						<string key="menuItem4Action:">id</string>
 						<string key="menuItem5Action:">id</string>
 						<string key="menuItemDeleteAction:">id</string>
-						<string key="menuItemQuitAction:">id</string>
 						<string key="menuItemUnkownAction:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
@@ -411,10 +442,6 @@
 						</object>
 						<object class="IBActionInfo" key="menuItemDeleteAction:">
 							<string key="name">menuItemDeleteAction:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="menuItemQuitAction:">
-							<string key="name">menuItemQuitAction:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="menuItemUnkownAction:">
