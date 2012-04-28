@@ -16,7 +16,7 @@
 -(id)init
 {
     self = [super init];
-    _deleteTrackViewController = [[DeleteTrackViewController alloc] initWithNibName:@"DeleteTrackView" bundle:nil];
+    _deleteTrackViewController = [[DeleteTrackViewController alloc] init];
     _iTunesApp = (iTunesApplication *)[SBApplication applicationWithBundleIdentifier:@"com.apple.iTunes"];
     return self;
 }

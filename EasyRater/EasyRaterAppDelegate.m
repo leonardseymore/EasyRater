@@ -10,30 +10,30 @@
 
 @implementation EasyRaterAppDelegate
 
-@synthesize menubarController = _menubarController;
+@synthesize statusMenuController = _statusMenuController;
 @synthesize iTunesController = _iTunesController;
 
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     
-    self.iTunesController = [[ITunesController alloc] init];
-    self.menubarController = [[MenubarController alloc] initWithITunesController:self.iTunesController];
+    _iTunesController = [[ITunesController alloc] init];
+    _statusMenuController = [[StatusMenuController alloc] init];
     [[NSDistributedNotificationCenter defaultCenter] addObserver:self
                                                         selector:@selector(allDistributedNotifications:)
                                                             name:@"com.apple.iTunes.playerInfo"
                                                           object:@"com.apple.iTunes.player"];
-    [_menubarController setTrack:[_iTunesController currentTrack]];
+    [_statusMenuController setTrack:[_iTunesController currentTrack]];
 }
 
 - (void) allDistributedNotifications:(NSNotification *)note {
-    [_menubarController setTrack:[_iTunesController currentTrack]];
+    [_statusMenuController setTrack:[_iTunesController currentTrack]];
 }
 
 - (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender
 {
-    self.iTunesController = nil;
-    self.menubarController = nil;
+    _iTunesController = nil;
+    _statusMenuController = nil;
     return NSTerminateNow;
 }
 

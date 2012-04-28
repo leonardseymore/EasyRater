@@ -21,9 +21,9 @@
 @synthesize lblPlays = _lblPlays;
 @synthesize track = _track;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)init
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super initWithNibName:@"DeleteTrackView" bundle:nil];
     if (self) {
         // Initialization code here.
     }
