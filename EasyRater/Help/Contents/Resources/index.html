@@ -1,24 +1,86 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+        <title>EasyRater Help</title>
+        <meta name="description" content="EasyRater Help Index"/>
+        
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="robots" content="noindex" />
-        <script type="text/javascript">
-            //<![CDATA[ // to preserve internal ampersands
-            function apd_language_redirect (code) {
-                var topic, url = "../index.html?lang=" + code;
-                if (location.search.match(/topic=[^&]+/)) {
-                    topic = location.search.replace(/^.*topic=([^&]+).*$/, "$1");
-                }
-                url += topic ? "#" + topic : location.hash;
-                location.replace(url);
-            }
-            //]]>
-        </script>
-        <meta http-equiv="refresh" content="1;url=../index.html" />
-        <title>EasyRater Help</title><script type="text/javascript">apd_language_redirect('en');</script>
+        
         <meta name="AppleTitle" content="EasyRater Help" />
         <meta name="AppleIcon" content="shrd/icon16.png" />
     </head>
-    <body></body>
+    <body>
+        <h1><img src="shrd/icon64.png"/> EasyRater Help</h1>
+        
+        <h2>Introduction</h2>
+        <p>
+        EasyRater is designed to get all your music tracks rated.  It uses the following guidelines to give you the best experience:
+            <ul>
+                <li>Streamlined with your workflow - Unobstrusively allow you to rate your songs without having to stop what you are currently doing.</li>
+                <li>Clearly indicate current rating - You need to see if the song is currently rated if you want to set it.</li>
+                <li>Minimize screen real estate usage - We don't want to waste any precious screen space.</li>
+                <li>Eliminate songs unworthy of a rating - Sometimes a song should rather get deleted.</li>
+                <li>(Extra) Highlight your favorite song - When you see that indicator lighting up, get ready for one of your favorites.</li>
+            </ul>
+        </p>
+        
+        <h2>See song rating</h2>
+        <p>
+        The application is driven by the status bar item:
+            <div>
+                <img src="shrd/indicator.png">
+            </div>
+        You can expect the following values in the preview icon:
+            <ul>
+                <li><img src="shrd/ratingStarUnknown.png"> - A song is playing that has not yet been rated</li>
+                <li><img src="shrd/ratingStar1.png"> - A song rated with 1 stars</li>
+                <li><img src="shrd/ratingStar2.png"> - A song rated with 2 stars</li>
+                <li><img src="shrd/ratingStar3.png"> - A song rated with 3 stars</li>
+                <li><img src="shrd/ratingStar4.png"> - A song rated with 4 stars</li>
+                <li><img src="shrd/ratingStar5.png"> - A favorite is playing</li>
+            </ul>
+        </p>
+        
+        <h2>Set song rating</h2>
+        <p>
+        Click on the icon to open to the application menu:
+            <div>
+                <img src="shrd/menu.png">
+            </div>
+        The menu is divided into three sections:
+        <ul>
+            <li>Delete - Delete the currently playing song</li>
+            <li>Rating - Select the desired rating for the song</li>
+            <li>Quit - Quit the application<li>
+        </ul>
+        </p>
+        
+        <h2>Delete song</h2>
+        <p>
+        From the status bar open the menu and select the "Delete" menu item.
+        An alert window will pop up to make sure you really want to delete the track:
+            <div>
+                <img src="shrd/deleteAlert.png">
+            </div>
+            <div>
+                <strong>WARNING</strong>: Deleted items are permanently deleted, the do <strong>NOT</strong go to the trash!</strong>
+            </div>
+        </p>
+        
+            
+        <h2>Quit application</h2>
+        <p>
+        From the status bar open the menu and select the "Quit" menu item.
+        </p>
+        
+        <h2>Known Issues</h2>
+        <h3>Indicator not updated if iTunes is paused</h3>
+        <p>
+            If iTunes is paused no notifications are sent to EasyRater.
+            <div>
+                No known fixes currently
+            </div>
+        </p>
+    </body>
 </html>
