@@ -24,5 +24,7 @@
 	<string>shrd/icon16.png</string>
 	<key>HPDBookTitle</key>
 	<string>EasyRater Help</string>
+	<key>HPDBookIndexPath</key>
+	<string>search.helpindex</string>
 </dict>
 </plist>
