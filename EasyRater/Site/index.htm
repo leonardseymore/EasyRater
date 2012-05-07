@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>EasyRater for iTunes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">    
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .header {
+        background-color: #448ccb;
+        border-bottom:2px solid #cccccc;
+        padding: 30px;
+        text-align: center;        
+    }
+
+    .headerText {
+        font-family: Arial;
+        color: white;
+        padding-top: 10px;
+        font-size: 26px;
+        text-shadow: rgba(0,0,0,0.5) 1px 1px 1px;
+    }
+    
+    .subHeading {
+        text-shadow: rgba(0,0,0,0.5) 1px 1px 1px;
+        font-family: Arial;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .body {
+        padding: 20px;
+        text-align: center;
+        font-size:13px;
+            font-family: Georgia;
+    }
+    
+    .footer {
+        margin-top: 10px;
+        padding: 20px;
+        text-align: center;
+        font-size:13px;
+        font-family: Georgia;
+    }
+    
+    .contentLeft {
+        min-width:300px;
+        width: 50%;
+        float: left;
+    }
+    
+    .contentRight {
+        min-width:300px;
+        width: 50%;
+        float: left;
+    }
+    
+    .aboutContent {
+        text-align:left;
+    }
+    
+    .previewImage {
+        cursor:pointer;
+        width:170;
+        height:133px;
+    }
+</style>
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script language="javascript">
+        $(document).ready(function (){
+                          $("#imgHelp").mouseover(function(){
+                                                  $(this).attr("src", "images/helpIconAlt.png");
+                         });        
+                          
+                          $("#imgHelp").mouseout(function(){
+                                                  $(this).attr("src", "images/helpIcon.png");
+                                                  });  
+                          
+                          $("#imgContact").mouseover(function(){
+                                                  $(this).attr("src", "images/contactIconAlt.png");
+                                                  });        
+                          
+                          $("#imgContact").mouseout(function(){
+                                                 $(this).attr("src", "images/contactIcon.png");
+                                                 }); 
+        });
+    </script>
+</head>
+
+<body>
+<div class="header">
+    <div>
+        <img src="images/icon128.png"/><div class="headerText">EasyRater for iTunes</div>
+    </div>
+</div>
+<div class="body">
+    <span class="contentLeft">
+        <div class="subHeading">About</div>
+        <div class="aboutContent">
+        <p>
+        EasyRater is designed to get all your music tracks rated.  It uses the following guidelines to give you the best experience:
+        <ul>
+            <li>Streamlined with your workflow: Unobstrusively allow you to rate your songs without having to stop what you are currently doing.</li>
+            <li>Clearly indicate current rating: You need to see if the song is currently rated if you want to set it.</li>
+            <li>Minimize screen real estate usage: We don't want to waste any precious screen space.</li>
+            <li>Eliminate songs unworthy of a rating: Sometimes a song should rather get deleted.</li>
+            <li>(Extra) Highlight your favorite song: When you see that indicator lighting up, get ready for one of your favorites.</li>
+        </ul>
+        </p>
+        </div>
+    </span>
+    <span class="contentRight">
+        <p>
+        <a href="help.html"><img id="imgHelp" src="images/helpIcon.png" alt="Help" title="Help"/></a>
+        <a href="mailto:support@easyrater4itunes.com"><img id="imgContact" src="images/contactIcon.png" alt="Contact Us" title="Contact Us"/></a>
+        </p>
+        <div class="subHeading">Available on App Store Soon</div>
+    </span>
+    <div style="clear:both;"/>
+    <div>
+        <div class="subHeading">Screenshots</div>
+        <a href="images/screenshot1.png"><img class="previewImage" src="images/screenshot1.png"/></a>
+        <a href="images/screenshot2.png"><img class="previewImage" src="images/screenshot2.png"/></a>
+        <a href="images/screenshot3.png"><img class="previewImage" src="images/screenshot3.png"/></a>
+        <div id="divPreview">
+            <img id="imgPreview"/>
+        </div>
+    </div>
+</div>
+<div style="clear:both;"/>
+<div class="footer">
+    <hr/>
+    All Rights Reserved.
+    <!--Copyright 2012 EasyRater for iTunes-->
+</div>    
+</body>
+</html>

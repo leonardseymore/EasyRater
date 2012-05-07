@@ -39,6 +39,7 @@
 		6E117BB815497715002B8C44 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E117BB615497715002B8C44 /* Localizable.strings */; };
 		6E117BBC1549785C002B8C44 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6E117BBB1549785C002B8C44 /* icon.icns */; };
 		6E6A6AA7154B140400F55B59 /* DeleteTrackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E6A6AA9154B140400F55B59 /* DeleteTrackView.xib */; };
+		6EF3D2601553FBE700B71E5A /* Site in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3D25F1553FBE700B71E5A /* Site */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		6E3FD14515499BFF006C4265 /* ITunesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesController.h; sourceTree = "<group>"; };
 		6E6A6AA8154B140400F55B59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DeleteTrackView.xib; sourceTree = "<group>"; };
 		6E6A6AAB154B140B00F55B59 /* af */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = af; path = af.lproj/DeleteTrackView.xib; sourceTree = "<group>"; };
+		6EF3D25F1553FBE700B71E5A /* Site */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Site; path = EasyRater/Site; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		6E117B351549727F002B8C44 = {
 			isa = PBXGroup;
 			children = (
+				6EF3D25F1553FBE700B71E5A /* Site */,
 				6E0FADB9154BED8700936F1C /* Help */,
 				6E117B4A15497280002B8C44 /* Sources */,
 				6E117B6715497280002B8C44 /* Tests */,
@@ -359,6 +362,7 @@
 				6E0588C8154A6EAB00640C79 /* defaultAlbumArt.png in Resources */,
 				6E0FADBA154BED8700936F1C /* Help in Resources */,
 				6E0FADC9154C025100936F1C /* StatusMenuView.xib in Resources */,
+				6EF3D2601553FBE700B71E5A /* Site in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,10 +536,12 @@
 		6E117B7315497280002B8C44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
 				INFOPLIST_FILE = "EasyRater/EasyRater-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -543,11 +549,13 @@
 		6E117B7415497280002B8C44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
 				INFOPLIST_FILE = "EasyRater/EasyRater-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
