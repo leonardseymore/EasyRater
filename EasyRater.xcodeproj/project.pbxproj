@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6E0588C8154A6EAB00640C79 /* defaultAlbumArt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0588C7154A6EAB00640C79 /* defaultAlbumArt.png */; };
 		6E0588CA154A6FC300640C79 /* ITunesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0588CB154A6FC300640C79 /* ITunesController.m */; };
-		6E0588D8154A741B00640C79 /* DeleteTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0588D7154A741B00640C79 /* DeleteTrackViewController.m */; };
+		6E0588D8154A741B00640C79 /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0588D7154A741B00640C79 /* TrackViewController.m */; };
 		6E0FADBA154BED8700936F1C /* Help in Resources */ = {isa = PBXBuildFile; fileRef = 6E0FADB9154BED8700936F1C /* Help */; };
 		6E0FADBE154BF1C000936F1C /* StatusMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0FADBC154BF1C000936F1C /* StatusMenuController.m */; };
 		6E0FADC9154C025100936F1C /* StatusMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0FADCB154C025100936F1C /* StatusMenuView.xib */; };
@@ -38,7 +38,7 @@
 		6E117BA41549765F002B8C44 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E117BA31549765F002B8C44 /* ScriptingBridge.framework */; };
 		6E117BB815497715002B8C44 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E117BB615497715002B8C44 /* Localizable.strings */; };
 		6E117BBC1549785C002B8C44 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6E117BBB1549785C002B8C44 /* icon.icns */; };
-		6E6A6AA7154B140400F55B59 /* DeleteTrackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E6A6AA9154B140400F55B59 /* DeleteTrackView.xib */; };
+		6E6A6AA7154B140400F55B59 /* TrackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E6A6AA9154B140400F55B59 /* TrackView.xib */; };
 		6EF3D2601553FBE700B71E5A /* Site in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3D25F1553FBE700B71E5A /* Site */; };
 /* End PBXBuildFile section */
 
@@ -55,8 +55,8 @@
 /* Begin PBXFileReference section */
 		6E0588C7154A6EAB00640C79 /* defaultAlbumArt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = defaultAlbumArt.png; path = Images/defaultAlbumArt.png; sourceTree = "<group>"; };
 		6E0588CB154A6FC300640C79 /* ITunesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesController.m; sourceTree = "<group>"; };
-		6E0588D6154A741B00640C79 /* DeleteTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteTrackViewController.h; sourceTree = "<group>"; };
-		6E0588D7154A741B00640C79 /* DeleteTrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteTrackViewController.m; sourceTree = "<group>"; };
+		6E0588D6154A741B00640C79 /* TrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackViewController.h; sourceTree = "<group>"; };
+		6E0588D7154A741B00640C79 /* TrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackViewController.m; sourceTree = "<group>"; };
 		6E0FADB9154BED8700936F1C /* Help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Help; path = EasyRater/Help; sourceTree = "<group>"; };
 		6E0FADBB154BF1C000936F1C /* StatusMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusMenuController.h; sourceTree = "<group>"; };
 		6E0FADBC154BF1C000936F1C /* StatusMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusMenuController.m; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 		6E117BB915497720002B8C44 /* af */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = af; path = af.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6E117BBB1549785C002B8C44 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
 		6E3FD14515499BFF006C4265 /* ITunesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesController.h; sourceTree = "<group>"; };
-		6E6A6AA8154B140400F55B59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DeleteTrackView.xib; sourceTree = "<group>"; };
-		6E6A6AAB154B140B00F55B59 /* af */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = af; path = af.lproj/DeleteTrackView.xib; sourceTree = "<group>"; };
+		6E6A6AA8154B140400F55B59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TrackView.xib; sourceTree = "<group>"; };
+		6E6A6AAB154B140B00F55B59 /* af */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = af; path = af.lproj/TrackView.xib; sourceTree = "<group>"; };
 		6EF3D25F1553FBE700B71E5A /* Site */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Site; path = EasyRater/Site; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -222,8 +222,8 @@
 				6E0588CB154A6FC300640C79 /* ITunesController.m */,
 				6E117B5615497280002B8C44 /* EasyRaterAppDelegate.h */,
 				6E117B5715497280002B8C44 /* EasyRaterAppDelegate.m */,
-				6E0588D6154A741B00640C79 /* DeleteTrackViewController.h */,
-				6E0588D7154A741B00640C79 /* DeleteTrackViewController.m */,
+				6E0588D6154A741B00640C79 /* TrackViewController.h */,
+				6E0588D7154A741B00640C79 /* TrackViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -241,7 +241,7 @@
 			children = (
 				6E117B7F1549747F002B8C44 /* Images */,
 				6E117B5915497280002B8C44 /* MainMenu.xib */,
-				6E6A6AA9154B140400F55B59 /* DeleteTrackView.xib */,
+				6E6A6AA9154B140400F55B59 /* TrackView.xib */,
 				6E0FADCB154C025100936F1C /* StatusMenuView.xib */,
 			);
 			name = UI;
@@ -344,7 +344,7 @@
 				6E117B4F15497280002B8C44 /* InfoPlist.strings in Resources */,
 				6E117B5515497280002B8C44 /* Credits.rtf in Resources */,
 				6E117B5B15497280002B8C44 /* MainMenu.xib in Resources */,
-				6E6A6AA7154B140400F55B59 /* DeleteTrackView.xib in Resources */,
+				6E6A6AA7154B140400F55B59 /* TrackView.xib in Resources */,
 				6E117B971549753C002B8C44 /* ratingStar1.png in Resources */,
 				6E117B981549753C002B8C44 /* ratingStar1Alt.png in Resources */,
 				6E117B991549753C002B8C44 /* ratingStar2.png in Resources */,
@@ -400,7 +400,7 @@
 				6E117B5115497280002B8C44 /* main.m in Sources */,
 				6E117B5815497280002B8C44 /* EasyRaterAppDelegate.m in Sources */,
 				6E0588CA154A6FC300640C79 /* ITunesController.m in Sources */,
-				6E0588D8154A741B00640C79 /* DeleteTrackViewController.m in Sources */,
+				6E0588D8154A741B00640C79 /* TrackViewController.m in Sources */,
 				6E0FADBE154BF1C000936F1C /* StatusMenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,13 +474,13 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		6E6A6AA9154B140400F55B59 /* DeleteTrackView.xib */ = {
+		6E6A6AA9154B140400F55B59 /* TrackView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6E6A6AA8154B140400F55B59 /* en */,
 				6E6A6AAB154B140B00F55B59 /* af */,
 			);
-			name = DeleteTrackView.xib;
+			name = TrackView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

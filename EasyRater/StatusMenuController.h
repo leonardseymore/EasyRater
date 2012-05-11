@@ -12,10 +12,12 @@
 @interface StatusMenuController : NSViewController
 
 @property (nonatomic, strong, readonly) NSStatusItem *statusItem;
+@property (nonatomic, strong) TrackViewController *trackViewController;
 @property (nonatomic, strong) ITunesController *iTunesController;
 @property (nonatomic, strong) iTunesTrack *track;
 
 @property (strong) IBOutlet NSMenu *menuStatus;
+@property (weak) IBOutlet NSMenuItem *menuItemPreview;
 @property (weak) IBOutlet NSMenuItem *menuItemUnknown;
 @property (weak) IBOutlet NSMenuItem *menuItem1;
 @property (weak) IBOutlet NSMenuItem *menuItem2;

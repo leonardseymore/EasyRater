@@ -15,8 +15,10 @@
 @implementation StatusMenuController
 @synthesize statusItem = _statusItem;
 @synthesize iTunesController = _iTunesController;
+@synthesize trackViewController = _trackViewController;
 @synthesize track = _track;
 @synthesize menuStatus = _menuStatus;
+@synthesize menuItemPreview = _menuItemPreview;
 @synthesize menuItemUnknown = _menuItemUnknown;
 @synthesize menuItem1 = _menuItem1;
 @synthesize menuItem2 = _menuItem2;
@@ -37,6 +39,9 @@
         [_statusItem setHighlightMode:TRUE];
         [_statusItem setMenu:_menuStatus];   
         _ratingMenuItems = [NSArray arrayWithObjects:_menuItemUnknown, _menuItem1, _menuItem2, _menuItem3, _menuItem4, _menuItem5, nil];
+        
+        _trackViewController = [[TrackViewController alloc]init];
+        [_menuItemPreview setView:[_trackViewController view]];
     }
     return self;
 }
@@ -48,6 +53,7 @@
 
 - (void) setTrack : (iTunesTrack*)newTrack
 {
+    [_trackViewController setTrack:newTrack];
     if (newTrack) {
         [_statusItem setEnabled:TRUE];
         [_statusItem setToolTip:[[NSString alloc] initWithFormat:NSLocalizedString(@"Track Information", @"Format for track information"), [newTrack artist], [newTrack album] , [newTrack name]]];

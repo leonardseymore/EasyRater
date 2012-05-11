@@ -6,13 +6,13 @@
 //  Copyright (c) 2012 leonardseymore@gmail.com. All rights reserved.
 //
 
-#import "DeleteTrackViewController.h"
+#import "TrackViewController.h"
 
-@interface DeleteTrackViewController ()
+@interface TrackViewController ()
 
 @end
 
-@implementation DeleteTrackViewController
+@implementation TrackViewController
 
 @synthesize vwArtwork = _vwArtwork;
 @synthesize lblAlbum = _lblAlbum;
@@ -23,7 +23,7 @@
 
 - (id)init
 {
-    self = [super initWithNibName:@"DeleteTrackView" bundle:nil];
+    self = [super initWithNibName:@"TrackView" bundle:nil];
     if (self) {
         // Initialization code here.
     }
@@ -53,13 +53,11 @@
         } else {
             _lblArtist.stringValue = NSLocalizedString(@"Unknown Artist", @"Indicates an unknown artist label");
         }
-        
     
         _lblTrack.stringValue = newTrack.name;
         _lblPlays.stringValue = [[NSString alloc] initWithFormat:@"%d", newTrack.playedCount];
     }
     _track = newTrack;
-    
 }
 
 @end

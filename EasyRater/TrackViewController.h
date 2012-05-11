@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "iTunes.h"
 
-@interface DeleteTrackViewController : NSViewController
+@interface TrackViewController : NSViewController
 @property (weak) IBOutlet NSImageView *vwArtwork;
 @property (weak) IBOutlet NSTextField *lblAlbum;
 @property (weak) IBOutlet NSTextField *lblArtist;
