@@ -11,7 +11,8 @@
     }
 
     .header {
-      background-color: #448ccb;
+      background-image: url('images/bannerBack.png');
+      background-repeat: repeat;
       border-bottom: 2px solid #cccccc;
       padding: 30px;
       text-align: center;
@@ -21,7 +22,7 @@
       font-family: Arial;
       color: white;
       padding-top: 10px;
-      font-size: 26px;                           s
+      font-size: 26px;
       text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
     }
 
@@ -33,16 +34,25 @@
     }
 
     .body {
+      background-image: url('images/bodyBack.jpg');
+      background-repeat: repeat-x;
       padding: 20px;
       text-align: center;
       font-size: 13px;
       font-family: Georgia;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .footer {
-      margin-top: 10px;
-      padding: 20px;
+      background-color: #303032;
       text-align: center;
+      color: #C2C9D3;
+      font-size: 10pt;
+      height: 50px;
+      text-shadow: black 0px 1px 1px;
+      margin-top: 12px;
+      margin-bottom: 1px;
       font-size: 13px;
       font-family: Georgia;
     }
@@ -99,6 +109,8 @@
         <div class="subHeading">About</div>
         <div class="aboutContent">
           <p>
+            EasyRater for iTunes is a simple menu bar application that gives you the possibility to easily rate the
+            track that is playing in iTunes.
             EasyRater is designed to get all your music tracks rated. It uses the following guidelines to give you the
             best experience:
           <ul>
@@ -109,9 +121,7 @@
             </li>
             <li>Minimize screen real estate usage: We don't want to waste any precious screen space.</li>
             <li>Eliminate songs unworthy of a rating: Sometimes a song should rather get deleted.</li>
-            <li>(Extra) Highlight your favorite song: When you see that indicator lighting up, get ready for one of your
-              favorites.
-            </li>
+            s
           </ul>
           </p>
         </div>
@@ -136,10 +146,22 @@
       <img id="imgPreview"/>
     </div>
   </div>
+  <div style="text-align: left;">
+    <div class="subHeading">Release Notes</div>
+    <div class="subHeading2">Version 1.1</div>
+    <ul>
+      <li>Track preview in menu</li>
+    </ul>
+    <div class="subHeading2">Version 1.0</div>
+    <ul>
+      <li>Preview track rating</li>
+      <li>Ability to set current track rating</li>
+      <li>Ability to delete current track</li>
+    </ul>
+  </div>
 </div>
 <div style="clear:both;"/>
 <div class="footer">
-  <hr/>
   All Rights Reserved.
   <!--Copyright 2012 EasyRater for iTunes-->
 </div>
