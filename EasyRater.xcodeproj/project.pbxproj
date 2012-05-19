@@ -101,6 +101,7 @@
 		6E3FD14515499BFF006C4265 /* ITunesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesController.h; sourceTree = "<group>"; };
 		6E6A6AA8154B140400F55B59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TrackView.xib; sourceTree = "<group>"; };
 		6E6A6AAB154B140B00F55B59 /* af */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = af; path = af.lproj/TrackView.xib; sourceTree = "<group>"; };
+		6EEA63221567FA1500BA6FA9 /* EasyRater.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = EasyRater.entitlements; path = EasyRater/EasyRater.entitlements; sourceTree = "<group>"; };
 		6EF3D25F1553FBE700B71E5A /* Site */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Site; path = EasyRater/Site; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +130,7 @@
 		6E117B351549727F002B8C44 = {
 			isa = PBXGroup;
 			children = (
+				6EEA63221567FA1500BA6FA9 /* EasyRater.entitlements */,
 				6EF3D25F1553FBE700B71E5A /* Site */,
 				6E0FADB9154BED8700936F1C /* Help */,
 				6E117B4A15497280002B8C44 /* Sources */,
@@ -536,10 +538,12 @@
 		6E117B7315497280002B8C44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EasyRater/EasyRater.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
 				INFOPLIST_FILE = "EasyRater/EasyRater-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -549,10 +553,12 @@
 		6E117B7415497280002B8C44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EasyRater/EasyRater.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
 				INFOPLIST_FILE = "EasyRater/EasyRater-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
