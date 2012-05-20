@@ -6,77 +6,94 @@
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
   <style type="text/css">
     body {
+      font-family: Arial;
       padding: 0px;
       margin: 0px;
+      background-color: #cfcfcf;
     }
 
-    .header {
-      background-image: url('images/bannerBack.png');
-      background-repeat: repeat;
-      border-bottom: 2px solid #cccccc;
-      padding: 30px;
-      text-align: center;
+    #galleria {
+      width: 640px;
+      height: 480px;
     }
 
-    .headerText {
-      font-family: Arial;
-      color: white;
-      padding-top: 10px;
-      font-size: 26px;
-      text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
+    .galleria-container {
+      border: 3px solid #cfcfcf;
+      -webkit-border-radius: 5px;
     }
 
-    .subHeading {
-      text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
-      font-family: Arial;
-      font-size: 18px;
+    .galleryHeader {
+      font-size: 36px;
+      margin-top: 10px;
       margin-bottom: 10px;
     }
 
-    .body {
-      background-image: url('images/bodyBack.jpg');
-      background-repeat: repeat-x;
-      padding: 20px;
-      text-align: center;
-      font-size: 13px;
-      font-family: Georgia;
+    .gallerySection {
+      width: 644px;
       margin-left: auto;
       margin-right: auto;
     }
 
-    .footer {
-      background-color: #303032;
-      text-align: center;
-      color: #C2C9D3;
-      font-size: 10pt;
-      height: 50px;
-      text-shadow: black 0px 1px 1px;
-      margin-top: 12px;
-      margin-bottom: 1px;
+    .content {
+      color: #2f2f2f;
+      background-color: #ffffff;
+      width: 1024px;
+      margin-left: auto;
+      margin-right: auto;
+      border-left: 1px solid #afafaf;
+      border-right: 1px solid #afafaf;
+    }
+
+    .header {
+      width: 1024px;
+      height: 414px;
+      background-image: url('images/header.jpg');
+    }
+
+    .aboutSection {
+      float: left;
+      width: 640px;
+      padding: 10px;
+      font-family: sans-serif;
       font-size: 13px;
-      font-family: Georgia;
     }
 
-    .contentLeft {
-      min-width: 300px;
-      width: 50%;
-      float: left;
+    .versionSection {
+      padding: 10px;
+      float: right;
+      font-family: sans-serif;
+      font-size: 13px;
+      text-align: right;
     }
 
-    .contentRight {
-      min-width: 300px;
-      width: 50%;
-      float: left;
+    .latestVersionHeader {
+      font-size: 18px;
+      font-weight: bold;
     }
 
-    .aboutContent {
-      text-align: left;
+    .footer {
+      padding: 20px;
+      font-size: 13px;
+      text-align: center;
+      font-family: sans-serif;
+    }
+
+    .contactSection {
+      float: right;
+      margin-right: 10px;
     }
   </style>
 
   <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/galleria/galleria-1.2.7.min.js"></script>
   <script language="javascript">
     $(document).ready(function () {
+      Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
+      Galleria.run('#galleria');
+      Galleria.configure({
+
+      });
+
       $("#imgHelp").mouseover(function () {
         $(this).attr("src", "images/helpIconAlt.png");
       });
@@ -97,73 +114,61 @@
 </head>
 
 <body>
-<div class="header">
-  <div>
-    <img src="images/icon128.png"/>
-
-    <div class="headerText">EasyRater for iTunes</div>
-  </div>
-</div>
-<div class="body">
-    <span class="contentLeft">
-        <div class="subHeading">About</div>
-        <div class="aboutContent">
-          <p>
-            EasyRater for iTunes is a simple menu bar application that gives you the possibility to easily rate the
-            track that is playing in iTunes.
-            EasyRater is designed to get all your music tracks rated. It uses the following guidelines to give you the
-            best experience:
-          <ul>
-            <li>Streamlined with your workflow: Unobstrusively allow you to rate your songs without having to stop what
-              you are currently doing.
-            </li>
-            <li>Clearly indicate current rating: You need to see if the song is currently rated if you want to set it.
-            </li>
-            <li>Minimize screen real estate usage: We don't want to waste any precious screen space.</li>
-            <li>Eliminate songs unworthy of a rating: Sometimes a song should rather get deleted.</li>
-            s
-          </ul>
-          </p>
-        </div>
-    </span>
-    <span class="contentRight">
-        <p>
-          <a href="help.html"><img id="imgHelp" src="images/helpIcon.png" alt="Help" title="Help"/></a>
-          <a href="mailto:support@easyrater4itunes.com"><img id="imgContact" src="images/contactIcon.png"
-                                                             alt="Contact Us" title="Contact Us"/></a>
-        </p>
-        <div class="subHeading">Available on App Store</div>
-    </span>
-
-  <div style="clear:both;"/>
-  <div>
-    <div class="subHeading">Screenshots</div>
-    <a href="images/screenshot1.png"><img class="previewImage" src="images/screenshot1Prev.jpg"/></a>
-    <a href="images/screenshot2.png"><img class="previewImage" src="images/screenshot2Prev.jpg"/></a>
-    <a href="images/screenshot3.png"><img class="previewImage" src="images/screenshot3Prev.jpg"/></a>
-
-    <div id="divPreview">
-      <img id="imgPreview"/>
+<div class="content">
+  <div class="header">
+    <div class="contactSection">
+      <p>
+        <a href="help.html"><img id="imgHelp" src="images/helpIcon.png" alt="Help" title="Help"/></a>
+        <a href="mailto:support@easyrater4itunes.com"><img id="imgContact" src="images/contactIcon.png"
+                                                           alt="Contact Us" title="Contact Us"/></a>
+      </p>
     </div>
   </div>
-  <div style="text-align: left;">
-    <div class="subHeading">Release Notes</div>
-    <div class="subHeading2">Version 1.1</div>
-    <ul>
-      <li>Track preview in menu</li>
-    </ul>
-    <div class="subHeading2">Version 1.0</div>
-    <ul>
-      <li>Preview track rating</li>
-      <li>Ability to set current track rating</li>
-      <li>Ability to delete current track</li>
-    </ul>
+  <div style="clear: both;"/>
+  <div class="body">
+    <div class="introSection">
+      <div class="aboutSection">
+        <div class="galleryHeader">about</div>
+        <p>
+          EasyRater for iTunes is a simple menu bar application that gives you the possibility to easily rate the
+          track that is playing in iTunes.
+          EasyRater is designed to get all your music tracks rated. It uses the following guidelines to give you the
+          best experience:
+        <ul>
+          <li>Streamlined with your workflow: Unobstrusively allow you to rate your songs without having to stop what
+            you are currently doing.
+          </li>
+          <li>Clearly indicate current rating: You need to see if the song is currently rated if you want to set it.
+          </li>
+          <li>Minimize screen real estate usage: We don't want to waste any precious screen space.</li>
+          <li>Eliminate songs unworthy of a rating: Sometimes a song should rather get deleted.</li>
+        </ul>
+        </p>
+      </div>
+      <div class="versionSection">
+        <div class="latestVersionHeader">Latest Version</div>
+        <div>
+          May 14, 2012 <img src="images/versionBadge1_0.png" alt="Version 1.0" style="vertical-align: text-top;"/>
+        </div>
+      </div>
+      <div style="clear: both;"/>
+    </div>
+
+    <div class="gallerySection">
+      <div class="galleryHeader">explore</div>
+      <div id="galleria">
+        <a href="images/screenshotRealestate.jpg"><img src="images/screenshotRealestateThumb.jpg" data-title="Screen Realestate" data-description="Minimal Screen Realestate Usage"></a>
+        <a href="images/screenshotMenu.jpg"><img src="images/screenshotMenuThumb.jpg" data-title="Application Menu" data-description="Application Menu"></a>
+        <a href="images/screenshotDeleteTrack.jpg"><img src="images/screenshotDeleteTrackThumb.jpg" data-title="Delete Track" data-description="Delete Current Track"></a>
+      </div>
+    </div>
   </div>
-</div>
-<div style="clear:both;"/>
-<div class="footer">
-  All Rights Reserved.
-  <!--Copyright 2012 EasyRater for iTunes-->
+  <div class="footer">
+    <hr/>
+    <a href="help.html">help</a> |
+    <a href="mailto:support@easyrater4itunes.com">support</a>
+    All rights reserved.
+  </div>
 </div>
 </body>
 </html>
