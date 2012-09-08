@@ -55,7 +55,7 @@
         }
     
         _lblTrack.stringValue = newTrack.name;
-        _lblPlays.stringValue = [[NSString alloc] initWithFormat:@"%d", newTrack.playedCount];
+        _lblPlays.stringValue = [[NSString alloc] initWithFormat:@"%ld", newTrack.playedCount];
     }
     _track = newTrack;
 }

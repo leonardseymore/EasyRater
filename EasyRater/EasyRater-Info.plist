@@ -11,7 +11,7 @@
 	<key>CFBundleHelpBookName</key>
 	<string>za.co.lorc.EasyRaterHelp</string>
 	<key>CFBundleIconFile</key>
-	<string>icon.icns</string>
+	<string>icon</string>
 	<key>CFBundleIdentifier</key>
 	<string>za.co.lorc.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>

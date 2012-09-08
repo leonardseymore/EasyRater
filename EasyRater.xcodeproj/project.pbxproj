@@ -99,6 +99,7 @@
 		6E117BB915497720002B8C44 /* af */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = af; path = af.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6E117BBB1549785C002B8C44 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
 		6E3FD14515499BFF006C4265 /* ITunesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesController.h; sourceTree = "<group>"; };
+		6E4F094315FB65D600F8867F /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		6E6A6AA8154B140400F55B59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TrackView.xib; sourceTree = "<group>"; };
 		6E6A6AAB154B140B00F55B59 /* af */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = af; path = af.lproj/TrackView.xib; sourceTree = "<group>"; };
 		6EEA63221567FA1500BA6FA9 /* EasyRater.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = EasyRater.entitlements; path = EasyRater/EasyRater.entitlements; sourceTree = "<group>"; };
@@ -130,6 +131,7 @@
 		6E117B351549727F002B8C44 = {
 			isa = PBXGroup;
 			children = (
+				6E4F094315FB65D600F8867F /* icon.icns */,
 				6EEA63221567FA1500BA6FA9 /* EasyRater.entitlements */,
 				6EF3D25F1553FBE700B71E5A /* Site */,
 				6E0FADB9154BED8700936F1C /* Help */,
@@ -316,7 +318,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = EasyRater;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "leonardseymore@gmail.com";
 			};
 			buildConfigurationList = 6E117B3A15497280002B8C44 /* Build configuration list for PBXProject "EasyRater" */;
@@ -540,12 +542,15 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = EasyRater/EasyRater.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
 				INFOPLIST_FILE = "EasyRater/EasyRater-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -555,13 +560,15 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = EasyRater/EasyRater.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
 				INFOPLIST_FILE = "EasyRater/EasyRater-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -570,6 +577,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyRater.app/Contents/MacOS/EasyRater";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
@@ -584,6 +592,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyRater.app/Contents/MacOS/EasyRater";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
