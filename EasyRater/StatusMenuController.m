@@ -58,7 +58,7 @@
         [_statusItem setEnabled:TRUE];
         [_statusItem setToolTip:[[NSString alloc] initWithFormat:NSLocalizedString(@"Track Information", @"Format for track information"), [newTrack artist], [newTrack album] , [newTrack name]]];
         NSInteger currentRating = [newTrack rating];
-        int starRating = currentRating / 20;
+        int starRating = (int)currentRating / 20;
         if (starRating == 0) {
             [_statusItem setImage:[NSImage imageNamed:@"ratingStarUnknown"]];
             [_statusItem setAlternateImage:[NSImage imageNamed:@"ratingStarUnknownAlt"]];

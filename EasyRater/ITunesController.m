@@ -27,7 +27,7 @@
     self.iTunesApp = nil;
 }
 
--(void) setTrackRating:(iTunesTrack*)track:(NSInteger) rating
+-(void) setTrackRating:(iTunesTrack*)track :(NSInteger) rating
 {    
     if (track) {
         [track setRating:rating];

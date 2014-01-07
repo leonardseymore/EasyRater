@@ -15,7 +15,7 @@
 @property (nonatomic, strong) iTunesApplication *iTunesApp;
 @property (nonatomic, strong) TrackViewController *trackViewController;
 
--(void) setTrackRating:(iTunesTrack*)track:(NSInteger)rating;
+-(void) setTrackRating:(iTunesTrack*)track :(NSInteger)rating;
 -(void) deleteTrack:(iTunesTrack*)track;
 
 -(iTunesTrack *) currentTrack;
