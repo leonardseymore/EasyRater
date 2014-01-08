@@ -356,6 +356,15 @@
 				CLASSPREFIX = EasyRater;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "leonardseymore@gmail.com";
+				TargetAttributes = {
+					6E117B3F15497280002B8C44 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = 6E117B3A15497280002B8C44 /* Build configuration list for PBXProject "EasyRater" */;
 			compatibilityVersion = "Xcode 3.2";
