@@ -13,7 +13,7 @@
 	<key>CFBundleIconFile</key>
 	<string>icon</string>
 	<key>CFBundleIdentifier</key>
-	<string>za.co.lorc.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>biz.lorc.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -33,7 +33,7 @@
 	<key>LSUIElement</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012 leonardseymore@gmail.com. All rights reserved.</string>
+	<string>Copyright © 2013 lorc.biz. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>

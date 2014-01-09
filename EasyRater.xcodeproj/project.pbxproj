@@ -355,7 +355,7 @@
 			attributes = {
 				CLASSPREFIX = EasyRater;
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "leonardseymore@gmail.com";
+				ORGANIZATIONNAME = lorc.biz;
 				TargetAttributes = {
 					6E117B3F15497280002B8C44 = {
 						SystemCapabilities = {
