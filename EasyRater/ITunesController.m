@@ -60,4 +60,11 @@
     iTunesTrack *track = [self.iTunesApp currentTrack];
     return [track get];
 }
+
+-(void) startiTunes
+{
+    if (![_iTunesApp isRunning]) {
+        [_iTunesApp run];
+    }
+}
 @end

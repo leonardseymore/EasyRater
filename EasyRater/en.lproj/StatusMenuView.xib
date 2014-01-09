@@ -16,6 +16,7 @@
                 <outlet property="menuItemPreview" destination="60" id="66"/>
                 <outlet property="menuItemUnknown" destination="14" id="24"/>
                 <outlet property="menuStatus" destination="12" id="22"/>
+                <outlet property="menuStatusNoTrack" destination="hXV-7E-Ls7" id="wU3-hf-SXh"/>
                 <outlet property="separatorDelete" destination="56" id="58"/>
                 <outlet property="view" destination="40" id="46"/>
             </connections>
@@ -79,6 +80,19 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="terminate:" target="-3" id="54"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+        <menu id="hXV-7E-Ls7">
+            <items>
+                <menuItem title="No track playing" enabled="NO" id="vvE-lB-csB">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Quit" id="3xT-Wo-3pS">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="terminate:" target="-3" id="FCv-bH-kei"/>
                     </connections>
                 </menuItem>
             </items>

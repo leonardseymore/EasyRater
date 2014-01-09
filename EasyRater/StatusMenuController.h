@@ -17,6 +17,7 @@
 @property (nonatomic, strong) iTunesTrack *track;
 
 @property (strong) IBOutlet NSMenu *menuStatus;
+@property (strong) IBOutlet NSMenu *menuStatusNoTrack;
 @property (weak) IBOutlet NSMenuItem *menuItemPreview;
 @property (weak) IBOutlet NSMenuItem *menuItemUnknown;
 @property (weak) IBOutlet NSMenuItem *menuItem1;

@@ -18,6 +18,7 @@
 @synthesize trackViewController = _trackViewController;
 @synthesize track = _track;
 @synthesize menuStatus = _menuStatus;
+@synthesize menuStatusNoTrack = _menuStatusNoTrack;
 @synthesize menuItemPreview = _menuItemPreview;
 @synthesize menuItemUnknown = _menuItemUnknown;
 @synthesize menuItem1 = _menuItem1;
@@ -37,7 +38,6 @@
         [_statusItem setImage:[NSImage imageNamed:@"ratingStarUnknown"]];
         [_statusItem setAlternateImage:[NSImage imageNamed:@"ratingStarUnknownAlt"]];
         [_statusItem setHighlightMode:TRUE];
-        [_statusItem setMenu:_menuStatus];   
         _ratingMenuItems = [NSArray arrayWithObjects:_menuItemUnknown, _menuItem1, _menuItem2, _menuItem3, _menuItem4, _menuItem5, nil];
         
         _trackViewController = [[TrackViewController alloc]init];
@@ -55,7 +55,10 @@
 {
     [_trackViewController setTrack:newTrack];
     if (newTrack) {
-        [_statusItem setEnabled:TRUE];
+        if ([_statusItem menu] == _menuStatusNoTrack) {
+            [_menuStatusNoTrack cancelTrackingWithoutAnimation];
+        }
+        [_statusItem setMenu:_menuStatus];
         [_statusItem setToolTip:[[NSString alloc] initWithFormat:NSLocalizedString(@"Track Information", @"Format for track information"), [newTrack artist], [newTrack album] , [newTrack name]]];
         NSInteger currentRating = [newTrack rating];
         int starRating = (int)currentRating / 20;
@@ -72,10 +75,13 @@
         }
         [[_ratingMenuItems objectAtIndex:starRating] setState:NSOnState];
     } else {
-        [_statusItem setEnabled:FALSE];
+        if ([_statusItem menu] == _menuStatus) {
+            [_menuStatus cancelTrackingWithoutAnimation];
+        }
+        [_statusItem setMenu:_menuStatusNoTrack];
         [_statusItem setToolTip:NSLocalizedString(@"No Track Playing", @"Indicates that no iTunes track is currently playing")];
-        [_statusItem setImage:[NSImage imageNamed:@"ratingStarUnknown"]];
-        [_statusItem setAlternateImage:[NSImage imageNamed:@"ratingStarUnknownAlt"]];
+        [_statusItem setImage:[NSImage imageNamed:@"ratingStarNoTrack"]];
+        [_statusItem setAlternateImage:[NSImage imageNamed:@"ratingStarNoTrackAlt"]];
     }
     _track = newTrack;
     

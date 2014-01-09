@@ -17,6 +17,6 @@
 
 -(void) setTrackRating:(iTunesTrack*)track :(NSInteger)rating;
 -(void) deleteTrack:(iTunesTrack*)track;
-
+-(void) startiTunes;
 -(iTunesTrack *) currentTrack;
 @end
