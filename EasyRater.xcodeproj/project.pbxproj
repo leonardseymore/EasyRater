@@ -43,6 +43,51 @@
 		6E6DB738187EC2870038F451 /* ratingStarNoTrack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6DB736187EC2870038F451 /* ratingStarNoTrack@2x.png */; };
 		6E6DB73B187EC2E90038F451 /* ratingStarNoTrackAlt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6DB739187EC2E90038F451 /* ratingStarNoTrackAlt.png */; };
 		6E6DB73C187EC2E90038F451 /* ratingStarNoTrackAlt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6DB73A187EC2E90038F451 /* ratingStarNoTrackAlt@2x.png */; };
+		6E6DB73F187FE9A40038F451 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E117B5015497280002B8C44 /* main.m */; };
+		6E6DB740187FE9A40038F451 /* EasyRaterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E117B5715497280002B8C44 /* EasyRaterAppDelegate.m */; };
+		6E6DB741187FE9A40038F451 /* ITunesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0588CB154A6FC300640C79 /* ITunesController.m */; };
+		6E6DB742187FE9A40038F451 /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0588D7154A741B00640C79 /* TrackViewController.m */; };
+		6E6DB743187FE9A40038F451 /* StatusMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0FADBC154BF1C000936F1C /* StatusMenuController.m */; };
+		6E6DB745187FE9A40038F451 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E117BA31549765F002B8C44 /* ScriptingBridge.framework */; };
+		6E6DB746187FE9A40038F451 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E117B4415497280002B8C44 /* Cocoa.framework */; };
+		6E6DB748187FE9A40038F451 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B4D15497280002B8C44 /* InfoPlist.strings */; };
+		6E6DB749187FE9A40038F451 /* ratingStar3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C3576187D418400C10D67 /* ratingStar3@2x.png */; };
+		6E6DB74A187FE9A40038F451 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B5315497280002B8C44 /* Credits.rtf */; };
+		6E6DB74B187FE9A40038F451 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B5915497280002B8C44 /* MainMenu.xib */; };
+		6E6DB74C187FE9A40038F451 /* TrackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E6A6AA9154B140400F55B59 /* TrackView.xib */; };
+		6E6DB74D187FE9A40038F451 /* ratingStar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B891549753C002B8C44 /* ratingStar1.png */; };
+		6E6DB74E187FE9A40038F451 /* ratingStarNoTrackAlt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6DB739187EC2E90038F451 /* ratingStarNoTrackAlt.png */; };
+		6E6DB74F187FE9A40038F451 /* ratingStar3Alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C356B187D40AD00C10D67 /* ratingStar3Alt@2x.png */; };
+		6E6DB750187FE9A40038F451 /* ratingStar1Alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B8A1549753C002B8C44 /* ratingStar1Alt.png */; };
+		6E6DB751187FE9A40038F451 /* ratingStar4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C3577187D418400C10D67 /* ratingStar4@2x.png */; };
+		6E6DB752187FE9A40038F451 /* ratingStar2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B8B1549753C002B8C44 /* ratingStar2.png */; };
+		6E6DB753187FE9A40038F451 /* ratingStarUnknownAlt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C356D187D40AD00C10D67 /* ratingStarUnknownAlt@2x.png */; };
+		6E6DB754187FE9A40038F451 /* ratingStar1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C3574187D418400C10D67 /* ratingStar1@2x.png */; };
+		6E6DB755187FE9A40038F451 /* ratingStar2Alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B8C1549753C002B8C44 /* ratingStar2Alt.png */; };
+		6E6DB756187FE9A40038F451 /* ratingStar3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B8D1549753C002B8C44 /* ratingStar3.png */; };
+		6E6DB757187FE9A40038F451 /* ratingStar3Alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B8E1549753C002B8C44 /* ratingStar3Alt.png */; };
+		6E6DB758187FE9A40038F451 /* ratingStar4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B8F1549753C002B8C44 /* ratingStar4.png */; };
+		6E6DB759187FE9A40038F451 /* ratingStar1Alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C3569187D40AD00C10D67 /* ratingStar1Alt@2x.png */; };
+		6E6DB75A187FE9A40038F451 /* ratingStar4Alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B901549753C002B8C44 /* ratingStar4Alt.png */; };
+		6E6DB75B187FE9A40038F451 /* ratingStar5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B911549753C002B8C44 /* ratingStar5.png */; };
+		6E6DB75C187FE9A40038F451 /* defaultAlbumArt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C3573187D418400C10D67 /* defaultAlbumArt@2x.png */; };
+		6E6DB75D187FE9A40038F451 /* ratingStar2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C3575187D418400C10D67 /* ratingStar2@2x.png */; };
+		6E6DB75E187FE9A40038F451 /* ratingStar5Alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B921549753C002B8C44 /* ratingStar5Alt.png */; };
+		6E6DB75F187FE9A40038F451 /* ratingStarUnknown.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B931549753C002B8C44 /* ratingStarUnknown.png */; };
+		6E6DB760187FE9A40038F451 /* ratingStarUnknownAlt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E117B941549753C002B8C44 /* ratingStarUnknownAlt.png */; };
+		6E6DB761187FE9A40038F451 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E117BB615497715002B8C44 /* Localizable.strings */; };
+		6E6DB762187FE9A40038F451 /* ratingStarNoTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6DB735187EC2870038F451 /* ratingStarNoTrack.png */; };
+		6E6DB763187FE9A40038F451 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6E117BBB1549785C002B8C44 /* icon.icns */; };
+		6E6DB764187FE9A40038F451 /* defaultAlbumArt.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0588C7154A6EAB00640C79 /* defaultAlbumArt.png */; };
+		6E6DB765187FE9A40038F451 /* ratingStar5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C3567187D3D9400C10D67 /* ratingStar5@2x.png */; };
+		6E6DB766187FE9A40038F451 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = 6E0FADB9154BED8700936F1C /* Help */; };
+		6E6DB767187FE9A40038F451 /* StatusMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0FADCB154C025100936F1C /* StatusMenuView.xib */; };
+		6E6DB768187FE9A40038F451 /* ratingStar2Alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C356A187D40AD00C10D67 /* ratingStar2Alt@2x.png */; };
+		6E6DB769187FE9A40038F451 /* ratingStar4Alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C356C187D40AD00C10D67 /* ratingStar4Alt@2x.png */; };
+		6E6DB76A187FE9A40038F451 /* ratingStarNoTrackAlt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6DB73A187EC2E90038F451 /* ratingStarNoTrackAlt@2x.png */; };
+		6E6DB76B187FE9A40038F451 /* ratingStarUnknown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C3578187D418400C10D67 /* ratingStarUnknown@2x.png */; };
+		6E6DB76C187FE9A40038F451 /* ratingStarNoTrack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6DB736187EC2870038F451 /* ratingStarNoTrack@2x.png */; };
+		6E6DB76D187FE9A40038F451 /* Site in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3D25F1553FBE700B71E5A /* Site */; };
 		6E7C3568187D3D9400C10D67 /* ratingStar5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C3567187D3D9400C10D67 /* ratingStar5@2x.png */; };
 		6E7C356E187D40AD00C10D67 /* ratingStar1Alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C3569187D40AD00C10D67 /* ratingStar1Alt@2x.png */; };
 		6E7C356F187D40AD00C10D67 /* ratingStar2Alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C356A187D40AD00C10D67 /* ratingStar2Alt@2x.png */; };
@@ -122,6 +167,8 @@
 		6E6DB736187EC2870038F451 /* ratingStarNoTrack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ratingStarNoTrack@2x.png"; path = "Images/ratingStarNoTrack@2x.png"; sourceTree = "<group>"; };
 		6E6DB739187EC2E90038F451 /* ratingStarNoTrackAlt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ratingStarNoTrackAlt.png; path = Images/ratingStarNoTrackAlt.png; sourceTree = "<group>"; };
 		6E6DB73A187EC2E90038F451 /* ratingStarNoTrackAlt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ratingStarNoTrackAlt@2x.png"; path = "Images/ratingStarNoTrackAlt@2x.png"; sourceTree = "<group>"; };
+		6E6DB771187FE9A40038F451 /* EasyRaterLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyRaterLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6DB772187FE9A40038F451 /* EasyRaterLite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EasyRaterLite-Info.plist"; path = "/Users/leonardseymore/Dropbox/Software Developer/macos/EasyRater/EasyRaterLite-Info.plist"; sourceTree = "<absolute>"; };
 		6E7C3567187D3D9400C10D67 /* ratingStar5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ratingStar5@2x.png"; path = "Images/ratingStar5@2x.png"; sourceTree = "<group>"; };
 		6E7C3569187D40AD00C10D67 /* ratingStar1Alt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ratingStar1Alt@2x.png"; path = "Images/ratingStar1Alt@2x.png"; sourceTree = "<group>"; };
 		6E7C356A187D40AD00C10D67 /* ratingStar2Alt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ratingStar2Alt@2x.png"; path = "Images/ratingStar2Alt@2x.png"; sourceTree = "<group>"; };
@@ -157,6 +204,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E6DB744187FE9A40038F451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6DB745187FE9A40038F451 /* ScriptingBridge.framework in Frameworks */,
+				6E6DB746187FE9A40038F451 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -179,6 +235,7 @@
 			children = (
 				6E117B4015497280002B8C44 /* EasyRater.app */,
 				6E117B6115497280002B8C44 /* EasyRaterTests.octest */,
+				6E6DB771187FE9A40038F451 /* EasyRaterLite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,6 +276,7 @@
 		6E117B4B15497280002B8C44 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6E6DB772187FE9A40038F451 /* EasyRaterLite-Info.plist */,
 				6E117BB615497715002B8C44 /* Localizable.strings */,
 				6E117B4C15497280002B8C44 /* EasyRater-Info.plist */,
 				6E117B4D15497280002B8C44 /* InfoPlist.strings */,
@@ -359,6 +417,23 @@
 			productReference = 6E117B6115497280002B8C44 /* EasyRaterTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		6E6DB73D187FE9A40038F451 /* EasyRaterLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6DB76E187FE9A40038F451 /* Build configuration list for PBXNativeTarget "EasyRaterLite" */;
+			buildPhases = (
+				6E6DB73E187FE9A40038F451 /* Sources */,
+				6E6DB744187FE9A40038F451 /* Frameworks */,
+				6E6DB747187FE9A40038F451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyRaterLite;
+			productName = EasyRater;
+			productReference = 6E6DB771187FE9A40038F451 /* EasyRaterLite.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -392,6 +467,7 @@
 			projectRoot = "";
 			targets = (
 				6E117B3F15497280002B8C44 /* EasyRater */,
+				6E6DB73D187FE9A40038F451 /* EasyRaterLite */,
 				6E117B6015497280002B8C44 /* EasyRaterTests */,
 			);
 		};
@@ -451,6 +527,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E6DB747187FE9A40038F451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6DB748187FE9A40038F451 /* InfoPlist.strings in Resources */,
+				6E6DB749187FE9A40038F451 /* ratingStar3@2x.png in Resources */,
+				6E6DB74A187FE9A40038F451 /* Credits.rtf in Resources */,
+				6E6DB74B187FE9A40038F451 /* MainMenu.xib in Resources */,
+				6E6DB74C187FE9A40038F451 /* TrackView.xib in Resources */,
+				6E6DB74D187FE9A40038F451 /* ratingStar1.png in Resources */,
+				6E6DB74E187FE9A40038F451 /* ratingStarNoTrackAlt.png in Resources */,
+				6E6DB74F187FE9A40038F451 /* ratingStar3Alt@2x.png in Resources */,
+				6E6DB750187FE9A40038F451 /* ratingStar1Alt.png in Resources */,
+				6E6DB751187FE9A40038F451 /* ratingStar4@2x.png in Resources */,
+				6E6DB752187FE9A40038F451 /* ratingStar2.png in Resources */,
+				6E6DB753187FE9A40038F451 /* ratingStarUnknownAlt@2x.png in Resources */,
+				6E6DB754187FE9A40038F451 /* ratingStar1@2x.png in Resources */,
+				6E6DB755187FE9A40038F451 /* ratingStar2Alt.png in Resources */,
+				6E6DB756187FE9A40038F451 /* ratingStar3.png in Resources */,
+				6E6DB757187FE9A40038F451 /* ratingStar3Alt.png in Resources */,
+				6E6DB758187FE9A40038F451 /* ratingStar4.png in Resources */,
+				6E6DB759187FE9A40038F451 /* ratingStar1Alt@2x.png in Resources */,
+				6E6DB75A187FE9A40038F451 /* ratingStar4Alt.png in Resources */,
+				6E6DB75B187FE9A40038F451 /* ratingStar5.png in Resources */,
+				6E6DB75C187FE9A40038F451 /* defaultAlbumArt@2x.png in Resources */,
+				6E6DB75D187FE9A40038F451 /* ratingStar2@2x.png in Resources */,
+				6E6DB75E187FE9A40038F451 /* ratingStar5Alt.png in Resources */,
+				6E6DB75F187FE9A40038F451 /* ratingStarUnknown.png in Resources */,
+				6E6DB760187FE9A40038F451 /* ratingStarUnknownAlt.png in Resources */,
+				6E6DB761187FE9A40038F451 /* Localizable.strings in Resources */,
+				6E6DB762187FE9A40038F451 /* ratingStarNoTrack.png in Resources */,
+				6E6DB763187FE9A40038F451 /* icon.icns in Resources */,
+				6E6DB764187FE9A40038F451 /* defaultAlbumArt.png in Resources */,
+				6E6DB765187FE9A40038F451 /* ratingStar5@2x.png in Resources */,
+				6E6DB766187FE9A40038F451 /* Help in Resources */,
+				6E6DB767187FE9A40038F451 /* StatusMenuView.xib in Resources */,
+				6E6DB768187FE9A40038F451 /* ratingStar2Alt@2x.png in Resources */,
+				6E6DB769187FE9A40038F451 /* ratingStar4Alt@2x.png in Resources */,
+				6E6DB76A187FE9A40038F451 /* ratingStarNoTrackAlt@2x.png in Resources */,
+				6E6DB76B187FE9A40038F451 /* ratingStarUnknown@2x.png in Resources */,
+				6E6DB76C187FE9A40038F451 /* ratingStarNoTrack@2x.png in Resources */,
+				6E6DB76D187FE9A40038F451 /* Site in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -487,6 +608,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E117B6F15497280002B8C44 /* EasyRaterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6DB73E187FE9A40038F451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6DB73F187FE9A40038F451 /* main.m in Sources */,
+				6E6DB740187FE9A40038F451 /* EasyRaterAppDelegate.m in Sources */,
+				6E6DB741187FE9A40038F451 /* ITunesController.m in Sources */,
+				6E6DB742187FE9A40038F451 /* TrackViewController.m in Sources */,
+				6E6DB743187FE9A40038F451 /* StatusMenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,6 +821,48 @@
 			};
 			name = Release;
 		};
+		6E6DB76F187FE9A40038F451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EasyRater/EasyRater.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"LITE=1",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/EasyRaterLite-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = EasyRaterLite;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E6DB770187FE9A40038F451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EasyRater/EasyRater.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyRater/EasyRater-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"LITE=1",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/EasyRaterLite-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = EasyRaterLite;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -714,6 +889,15 @@
 			buildConfigurations = (
 				6E117B7615497280002B8C44 /* Debug */,
 				6E117B7715497280002B8C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6DB76E187FE9A40038F451 /* Build configuration list for PBXNativeTarget "EasyRaterLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6DB76F187FE9A40038F451 /* Debug */,
+				6E6DB770187FE9A40038F451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

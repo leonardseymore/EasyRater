@@ -26,6 +26,7 @@
 @synthesize menuItem3 = _menuItem3;
 @synthesize menuItem4 = _menuItem4;
 @synthesize menuItem5 = _menuItem5;
+@synthesize menuItemBuy = _menuItemBuy;
 @synthesize ratingMenuItems = _ratingMenuItems;
 
 - (id)init
@@ -43,6 +44,9 @@
         _trackViewController = [[TrackViewController alloc]init];
         [_menuItemPreview setView:[_trackViewController view]];
     }
+    #ifndef LITE
+    [_menuItemBuy setHidden:YES];
+    #endif
     return self;
 }
 
@@ -112,5 +116,22 @@
 
 - (IBAction)menuItem5Action:(id)sender {
     [_iTunesController setTrackRating:_track:100];
+}
+
+- (IBAction)menuItemBuyAction:(id)sender {
+    NSString *baseUrl = @"http://lorc.biz/easyrater/test.html?";
+   
+    NSString *umtSource = @"utm_source=application";
+    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    NSString *umtMedium = @"&utm_medium=easyraterlite-";
+    umtMedium = [umtMedium stringByAppendingString:version];
+    umtMedium = [umtMedium stringByAppendingString:@"-buy"];
+    NSString *umtCampaign = @"&utm_campaign=product";
+    
+    NSString *url = [baseUrl stringByAppendingString:umtSource];
+    url = [url stringByAppendingString:umtMedium];
+    url = [url stringByAppendingString:umtCampaign];
+    
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:url]];
 }
 @end

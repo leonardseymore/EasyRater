@@ -25,6 +25,7 @@
 @property (weak) IBOutlet NSMenuItem *menuItem3;
 @property (weak) IBOutlet NSMenuItem *menuItem4;
 @property (weak) IBOutlet NSMenuItem *menuItem5;
+@property (weak) IBOutlet NSMenuItem *menuItemBuy;
 @property (nonatomic, strong) NSArray *ratingMenuItems;
 
 
@@ -35,5 +36,6 @@
 - (IBAction)menuItem3Action:(id)sender;
 - (IBAction)menuItem4Action:(id)sender;
 - (IBAction)menuItem5Action:(id)sender;
+- (IBAction)menuItemBuyAction:(id)sender;
 
 @end

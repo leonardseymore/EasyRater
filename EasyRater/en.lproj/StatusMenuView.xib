@@ -12,6 +12,7 @@
                 <outlet property="menuItem3" destination="17" id="27"/>
                 <outlet property="menuItem4" destination="18" id="28"/>
                 <outlet property="menuItem5" destination="19" id="29"/>
+                <outlet property="menuItemBuy" destination="Lsd-K5-VYE" id="rbP-pC-9H0"/>
                 <outlet property="menuItemDelete" destination="13" id="57"/>
                 <outlet property="menuItemPreview" destination="60" id="66"/>
                 <outlet property="menuItemUnknown" destination="14" id="24"/>
@@ -80,6 +81,12 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="terminate:" target="-3" id="54"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Buy the full version" id="Lsd-K5-VYE">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="menuItemBuyAction:" target="-2" id="z7v-yg-KZU"/>
                     </connections>
                 </menuItem>
             </items>

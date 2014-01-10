@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>EasyRaterLite.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>6E117B6015497280002B8C44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E6DB73D187FE9A40038F451</key>
 		<dict>
 			<key>primary</key>
 			<true/>

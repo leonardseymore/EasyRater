@@ -18,9 +18,12 @@
 
     function download() {
       ga('send', 'event', {
-        'eventCategory': 'Downloads',
+        'eventCategory': 'Applications',
         'eventAction': 'Download',
-        'eventValue': 'EasyRater-1.2.dmg'
+        'eventLabel': 'EasyRater-1.2.dmg',
+        'hitCallback': function() {
+          console.log('analytics.js done sending data');
+        }
       });
     }
   </script>
