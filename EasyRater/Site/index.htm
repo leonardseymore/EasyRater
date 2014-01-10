@@ -35,19 +35,19 @@
 
       });
 
-      $("#imgHelp").mouseover(function () {
+      $(".imgHelp").mouseover(function () {
         $(this).attr("src", "images/helpIconAlt.png");
       });
 
-      $("#imgHelp").mouseout(function () {
+      $(".imgHelp").mouseout(function () {
         $(this).attr("src", "images/helpIcon.png");
       });
 
-      $("#imgContact").mouseover(function () {
+      $(".imgContact").mouseover(function () {
         $(this).attr("src", "images/contactIconAlt.png");
       });
 
-      $("#imgContact").mouseout(function () {
+      $(".imgContact").mouseout(function () {
         $(this).attr("src", "images/contactIcon.png");
       });
     });
@@ -59,8 +59,8 @@
   <div class="header">
     <div class="contactSection">
       <div class="buttonSection">
-        <a href="help.html"><img id="imgHelp" src="images/helpIcon.png" alt="Help" title="Help"/></a>
-        <a href="mailto:support@lorc.biz"><img id="imgContact" src="images/contactIcon.png"
+        <a href="help.html"><img class="imgHelp" src="images/helpIcon.png" alt="Help" title="Help"/></a>
+        <a href="mailto:support@lorc.biz"><img class="imgContact" src="images/contactIcon.png"
                                                            alt="Contact Us" title="Contact Us"/></a>
       </div>
     </div>
@@ -71,16 +71,13 @@
       <div class="aboutSection">
         <div class="galleryHeader">About</div>
         <p>
-          EasyRater for iTunes is a simple menu bar application that gives you the possibility to easily rate the
+          <em>EasyRater for iTunes</em> is a simple menu bar application that gives you the possibility to easily rate the
           track that is playing in iTunes.
           EasyRater is designed to get all your music tracks rated. It uses the following guidelines to give you the
           best experience:
         <ul>
-          <li>Streamlined with your workflow: Unobstrusively allow you to rate your songs without having to stop what
-            you are currently doing.
-          </li>
-          <li>Clearly indicate current rating: You need to see if the song is currently rated if you want to set it.
-          </li>
+          <li>Unobstrusively allow you to rate your songs without having to stop what you are currently doing.</li>
+          <li>Clearly indicate current rating: You need to see if the song is currently rated if you want to set it.</li>
           <li>Minimize screen real estate usage: We don't want to waste any precious screen space.</li>
           <li>Eliminate songs unworthy of a rating: Sometimes a song should rather get deleted.</li>
         </ul>
@@ -96,8 +93,15 @@
           <a href="http://itunes.apple.com/us/app/easyrater-for-itunes/id524953311?ls=1&mt=12"><img src="images/macAppStoreBadge.png" alt="Available on Mac App Store"/></a>
         </div>
         -->
-        <div>
+        <div style="padding-top: 5px;">
           <img style="cursor: pointer;" onclick="download()" src="images/btnDownload.png" alt="Download"/>
+        </div>
+        <div style="padding-top: 5px;">
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="F53C3A9NT6NN6">
+            <input type="image" src="images/btnDonate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          </form>
         </div>
       </div>
       <div style="clear: both;"/>
@@ -112,11 +116,13 @@
       </div>
     </div>
   </div>
+  <div style="clear: both;"/>
+  <br/>
   <div class="footer">
-    <hr/>
-    <a href="help.html">Help</a> |
-    <a href="mailto:support@lorc.biz">Support</a>
-    All rights reserved.
+    <a href="help.html"><img class="imgHelp" src="images/helpIcon.png" alt="Help" title="Help"/></a>
+    <a href="mailto:support@lorc.biz"><img class="imgContact" src="images/contactIcon.png"
+                                           alt="Contact Us" title="Contact Us"/></a>
+    Copyright &copy; 2013 <a style="color: #ffffff;" href="http://lorc.biz">lorc.biz</a>. All rights reserved.
   </div>
 </div>
 </body>
