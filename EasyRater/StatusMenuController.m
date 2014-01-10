@@ -119,9 +119,9 @@
 }
 
 - (IBAction)menuItemBuyAction:(id)sender {
-    NSString *baseUrl = @"http://lorc.biz/easyrater/test.html?";
+    NSString *baseUrl = @"http://lorc.biz/easyrater?action=buy";
    
-    NSString *umtSource = @"utm_source=application";
+    NSString *umtSource = @"&utm_source=application";
     NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     NSString *umtMedium = @"&utm_medium=easyraterlite-";
     umtMedium = [umtMedium stringByAppendingString:version];

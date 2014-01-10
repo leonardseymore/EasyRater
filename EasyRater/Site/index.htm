@@ -20,9 +20,9 @@
       ga('send', 'event', {
         'eventCategory': 'Applications',
         'eventAction': 'Download',
-        'eventLabel': 'EasyRater-1.2.dmg',
+        'eventLabel': 'EasyRaterLite-1.2.dmg',
         'hitCallback': function() {
-          console.log('analytics.js done sending data');
+          window.location = "downloads/EasyRaterLite-1.2.dmg"
         }
       });
     }
@@ -97,7 +97,7 @@
         </div>
         -->
         <div>
-          <a href=""><img src="images/btnDownload.png" alt="Download"/></a>
+          <img style="cursor: pointer;" onclick="download()" src="images/btnDownload.png" alt="Download"/>
         </div>
       </div>
       <div style="clear: both;"/>

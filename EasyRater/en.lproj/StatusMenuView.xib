@@ -83,7 +83,7 @@
                         <action selector="terminate:" target="-3" id="54"/>
                     </connections>
                 </menuItem>
-                <menuItem title="Buy the full version" id="Lsd-K5-VYE">
+                <menuItem title="Please support this project" id="Lsd-K5-VYE">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="menuItemBuyAction:" target="-2" id="z7v-yg-KZU"/>
