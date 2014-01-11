@@ -38,6 +38,7 @@ body {
 }
 
 .header {
+    position: relative;
     width: 1024px;
     height: 414px;
     background-image: url('../images/header.jpg');
@@ -76,6 +77,12 @@ body {
 .contactSection {
     height: 100%;
     text-align: right;
+}
+
+.likeButtons {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }
 
 .buttonSection {
